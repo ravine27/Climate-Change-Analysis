@@ -352,22 +352,11 @@ check_stationarity(df_train["Temp"].diff(12).dropna())
 - Both the original and the seasonally differenced series pass the ADF test at the 5% level, with the differenced series far more clearly.
 - The yearly average and its rolling mean make the long-term trend easier to see.
 
-## 📊 Interactive Dashboard
-
-Explore the patterns interactively in the [Tableau dashboard](https://public.tableau.com/views/ClimateChangeAnalysisDashboardDA2/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
-
-## 🔮 Future Work
-
-- [ ] Build forecasting models (ARIMA / SARIMA, Prophet, LSTM).
-- [ ] Evaluate models on the validation and test sets (RMSE, MAE).
-- [ ] Extend the analysis to other cities, countries and the global average.
-- [ ] Add interactive Plotly charts and a map-based view.
-- [ ] Quantify long-term warming trends with confidence intervals.
 
 ## 👤 Author
 
 **Your Name**
-[GitHub](https://github.com/<your-username>) · [LinkedIn](https://www.linkedin.com/in/<your-profile>) · your.email@example.com
+[GitHub](https://github.com/ravine27) · [LinkedIn](https://www.linkedin.com/in/radha-agarwal-67b925289/) · radhaagrwal.380@gmail.com
 
 ---
 
